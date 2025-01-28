@@ -127,3 +127,37 @@ background-color: #ffffff7e;
     margin: 20px 0;
     color: #7e7e7e;
 }
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .main {
+        padding: 5px;
+    }
+
+    .message-container {
+        height: 200px;
+    }
+
+    .send-button {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .name-input, .message-input {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .send-button {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .client-total {
+        font-size: 0.9rem;
+    }
+}
